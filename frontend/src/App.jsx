@@ -1,3 +1,4 @@
+import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
 import HeroGradient from "./components/HeroSection/HeroGradient";
 import HeroMain from "./components/HeroSection/HeroMain";
 import NavbarMain from "./components/Navbar/NavbarMain";
@@ -11,6 +12,7 @@ function App() {
     <HeroMain />
     <HeroGradient />
     <SubHeroMain />
+    <AboutMeMain />
    </div>
   )
 }
