@@ -1,5 +1,7 @@
-import HeroMain from "./components/Navbar/HeroSection/HeroMain";
+import HeroGradient from "./components/HeroSection/HeroGradient";
+import HeroMain from "./components/HeroSection/HeroMain";
 import NavbarMain from "./components/Navbar/NavbarMain";
+import SubHeroMain from "./components/subHeroSection/SubHeroMain";
 
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
    <div className="font-body">
      <NavbarMain />
     <HeroMain />
+    <HeroGradient />
+    <SubHeroMain />
    </div>
   )
 }
