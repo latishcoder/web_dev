@@ -1,6 +1,6 @@
 import AboutMeImage from "./AboutMeImage";
 import AboutMeText from "./AboutMeText";
-import { motion } from "framer-motion";
+import  {motion}  from "framer-motion";
 import { fadeIn } from "../framerMotion/variant";
 const AboutMeMain = () => {
   return (
